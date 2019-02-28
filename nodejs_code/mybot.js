@@ -2,13 +2,14 @@ const { Wechaty } = require('wechaty')
 var server = require('./curl')
 const bot = new Wechaty()
     //获取微信的登录的二维码图片
-bot.on('scan', (qrcode, status) => {
-        if (!/201|200/.test(String(status))) {
-            let loginUrl = qrcode.replace(/\/qrcode\//, '/l/')
-            require('qrcode-terminal').generate(loginUrl, { small: true })
-        }
-        console.log(['https://api.qrserver.com/v1/create-qr-code/?data=', encodeURIComponent(qrcode), '&size=220x220&margin=20', ].join(''))
-    })
+// bot.on('scan', (qrcode, status) => {
+//         if (!/201|200/.test(String(status))) {
+//             let loginUrl = qrcode.replace(/\/qrcode\//, '/l/')
+//             require('qrcode-terminal').generate(loginUrl, { small: true })
+//         }
+//         console.log(['https://api.qrserver.com/v1/create-qr-code/?data=', encodeURIComponent(qrcode), '&size=220x220&margin=20', ].join(''))
+//     })
+bot.on('scan',    (qrcode, status) => console.log(['https://api.qrserver.com/v1/create-qr-code/?data=',encodeURIComponent(qrcode),'&size=220x220&margin=20',].join('')));
     //登录回调
 bot.on('login', user => console.log(`User ${user} logined`))
     //退出登录回调
