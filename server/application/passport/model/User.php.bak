@@ -1,0 +1,136 @@
+<?php
+namespace app\passport\model;
+
+use app\common\model\ModelBase;
+use app\passport\controller\App;
+use think\db\Query;
+
+/**
+ * 会员
+ * Class User 
+ * @author scan<232832288@qq.com>
+ * @package app\passport\model
+ */
+class User extends ModelBase
+{
+    protected $name = 'user';
+    
+    protected $connection = 'bs_db_config';
+
+    public function getUserId($username)
+    {
+        if (is_numeric($username)) {
+            return ltrim($username, '0');
+        }
+        $username = strtolower($username);
+        $hash = hash('md5', $username);
+        $uid = '';
+        for($i = 0; $i < 32; $i ++) {
+            $uid .= decbin(ord($hash{$i}));
+        }
+        $uid = hash('crc32', $uid) . hash('crc32b', $uid);
+        return base_convert($uid, 16, 10);
+    }
+
+    public function getTableId($uid, $split = 20)
+    {
+        if (strlen($uid) > 5) {
+            $uid = substr($uid, 0, 6);
+        }
+        return $uid % $split;
+    }
+
+    public function getByname($name) 
+    {
+        $uid = $this->getUserId($name);
+        $this->switchTable($uid);
+        return $this->get(['id'=>$uid]);
+    }
+    
+    public function getByUid($uid) 
+    {
+        $this->switchTable($uid);
+        return $this->get(['id'=>$uid]);
+    }
+    
+    public function switchTable($uid) 
+    {
+        return $this->db()->setTable($this->db()->getTable('user_'.$this->getTableId($uid)));
+    }
+    
+    public function exists($uid) 
+    {
+        $this->switchTable($uid);
+        return $this->db()->where(['id'=> $uid])->count();
+    }
+    
+    public function add($uid, array $user) 
+    {
+        $this->switchTable($uid);
+        $password = md5($user['user_name'].trim($user['user_pwd']));
+        $data = array_merge($user, ['id'=>$uid]);
+        return $this->create($data);
+    }
+    
+    /**
+     * 建表
+     */
+    public function createTable() 
+    {
+        for ($i=0; $i<20; $i++){
+            $sql = <<<EOD
+CREATE TABLE `mc_user_{$i}` (
+  `id` bigint(19) unsigned NOT NULL,
+  `user_name` varchar(40) NOT NULL DEFAULT '' COMMENT '用户名',
+  `user_pwd` varchar(32) NOT NULL DEFAULT '' COMMENT '密码',
+  `email` varchar(50) NOT NULL DEFAULT '' COMMENT '邮箱',
+  `tel` varchar(15) NOT NULL DEFAULT '' COMMENT '手机号码',
+  `gender` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '0：未知  1：男  2：女',
+  `alias` varchar(40) NOT NULL DEFAULT '' COMMENT '昵称',
+  `profile_photo` varchar(255) NOT NULL DEFAULT '' COMMENT '头像',
+  `level` tinyint(4) unsigned NOT NULL DEFAULT '0' COMMENT '0：普通注册用户',
+  `birthday` varchar(10) NOT NULL DEFAULT '' COMMENT '生日',
+  `register_ip` varchar(32) NOT NULL DEFAULT '' COMMENT '注册ip',
+  `register_time` varchar(10) NOT NULL DEFAULT '' COMMENT '注册时间',
+  `last_login_ip` varchar(32) NOT NULL DEFAULT '' COMMENT '最后登录ip',
+  `last_login_mac` varchar(32) NOT NULL DEFAULT '' COMMENT '最后登录的mac地址',
+  `last_login_time` varchar(10) NOT NULL DEFAULT '' COMMENT '最后登录时间',
+  `token` varchar(64) NOT NULL DEFAULT '' COMMENT '认证token',
+  `token_dead_time` varchar(10) NOT NULL DEFAULT '' COMMENT 'token过期时间',
+  `is_freeze` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '0：未被冻结  1：已冻结',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+EOD;
+            $this->db()->query($sql);
+        }
+        return ;
+    }
+    
+    /**
+     * 改表
+     */
+    public function alterTable() 
+    {
+        for ($i=0; $i<20; $i++){
+            $sql = <<<EOD
+ALTER TABLE `mc_user_{$i}` ADD `methodGist` varchar(255) NOT NULL DEFAULT '' COMMENT 'VIP战法要领'
+EOD;
+            $this->db()->query($sql);
+        }
+        return ;
+    }
+    
+    /**
+     * 删表
+     */
+    public function deleteTable() 
+    {
+        for ($i=0; $i<20; $i++){
+            $sql = <<<EOD
+DROP TABLE IF EXISTS `mc_user_{$i}`
+EOD;
+            $this->db()->query($sql);
+        }
+        return ;
+    }
+}

@@ -1,0 +1,1663 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3aa4b33eda39b4a8cc1bbbf391a9ca0b",
+    "packages": [
+        {
+            "name": "airmanbzh/php-html-generator",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Airmanbzh/php-html-generator.git",
+                "reference": "c5ecd3b5263307984f7959823a914ce32a74b421"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/Airmanbzh/php-html-generator/c5ecd3b5263307984f7959823a914ce32a74b421.zip",
+                "reference": "c5ecd3b5263307984f7959823a914ce32a74b421",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "HtmlGenerator\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "LE BOULC'H Brice",
+                    "email": "airmanbzh@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP html generator",
+            "homepage": "https://github.com/Airmanbzh/php-html-generator",
+            "keywords": [
+                "generator",
+                "html",
+                "php"
+            ],
+            "time": "2016-10-28T20:41:14+00:00"
+        },
+        {
+            "name": "box/spout",
+            "version": "v2.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/box/spout.git",
+                "reference": "3681a3421a868ab9a65da156c554f756541f452b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/box/spout/3681a3421a868ab9a65da156c554f756541f452b.zip",
+                "reference": "3681a3421a868ab9a65da156c554f756541f452b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlreader": "*",
+                "ext-zip": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.0"
+            },
+            "suggest": {
+                "ext-iconv": "To handle non UTF-8 CSV files (if \"php-intl\" is not already installed or is too limited)",
+                "ext-intl": "To handle non UTF-8 CSV files (if \"iconv\" is not already installed)"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Box\\Spout\\": "src/Spout"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Adrien Loison",
+                    "email": "adrien@box.com"
+                }
+            ],
+            "description": "PHP Library to read and write spreadsheet files (CSV, XLSX and ODS), in a fast and scalable way",
+            "homepage": "https://www.github.com/box/spout",
+            "keywords": [
+                "OOXML",
+                "csv",
+                "excel",
+                "memory",
+                "odf",
+                "ods",
+                "office",
+                "open",
+                "php",
+                "read",
+                "scale",
+                "spreadsheet",
+                "stream",
+                "write",
+                "xlsx"
+            ],
+            "time": "2017-09-25T19:44:35+00:00"
+        },
+        {
+            "name": "char0n/ffmpeg-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/char0n/ffmpeg-php.git",
+                "reference": "99c3bfeb9489b65949815ee1edfd3baa08218b89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/char0n/ffmpeg-php/zipball/99c3bfeb9489b65949815ee1edfd3baa08218b89",
+                "reference": "99c3bfeb9489b65949815ee1edfd3baa08218b89",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD"
+            ],
+            "authors": [
+                {
+                    "name": "char0n (Vladimír Gorej)",
+                    "email": "vladimir.gorej@gmail.com",
+                    "homepage": "https://www.linkedin.com/in/vladimirgorej/",
+                    "role": "Software engineer"
+                }
+            ],
+            "description": "PHP wrapper for FFmpeg application",
+            "homepage": "http://freecode.com/projects/ffmpegphp",
+            "keywords": [
+                "audio",
+                "ffmpeg",
+                "video"
+            ],
+            "time": "2017-02-03T22:42:05+00:00"
+        },
+        {
+            "name": "doctrine/cache",
+            "version": "v1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/cache.git",
+                "reference": "b6f544a20f4807e81f7044d31e679ccbb1866dc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/b6f544a20f4807e81f7044d31e679ccbb1866dc3",
+                "reference": "b6f544a20f4807e81f7044d31e679ccbb1866dc3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.5|~7.0"
+            },
+            "conflict": {
+                "doctrine/common": ">2.2,<2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8|~5.0",
+                "predis/predis": "~1.0",
+                "satooshi/php-coveralls": "~0.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Caching library offering an object-oriented API for many cache backends",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "cache",
+                "caching"
+            ],
+            "time": "2016-10-29T11:16:17+00:00"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/8d6c6cc55186db87b7dc5009827429ba4e9dc006",
+                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0",
+                "psr/log": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2017-02-28T22:50:30+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-12-20T10:07:11+00:00"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2017-03-20T17:10:46+00:00"
+        },
+        {
+            "name": "ircmaxell/password-compat",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/password_compat.git",
+                "reference": "5c5cde8822a69545767f7c7f3058cb15ff84614c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/ircmaxell/password_compat/5c5cde8822a69545767f7c7f3058cb15ff84614c.zip",
+                "reference": "5c5cde8822a69545767f7c7f3058cb15ff84614c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/password.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@php.net",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
+            "homepage": "https://github.com/ircmaxell/password_compat",
+            "keywords": [
+                "hashing",
+                "password"
+            ],
+            "time": "2014-11-20T16:49:30+00:00"
+        },
+        {
+            "name": "kozz/emoji-regex",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/urakozz/php-emoji-regex.git",
+                "reference": "23bbac0f1e7ad2768744ab97d7557e5025991057"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/urakozz/php-emoji-regex/23bbac0f1e7ad2768744ab97d7557e5025991057.zip",
+                "reference": "23bbac0f1e7ad2768744ab97d7557e5025991057",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phpunit/phpunit": "~4.2"
+            },
+            "suggest": {
+                "php": ">=5.6.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kozz\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yury Kozyrev",
+                    "email": "urakozz@gmail.com",
+                    "homepage": "https://github.com/urakozz"
+                }
+            ],
+            "description": "Emoji regex parser",
+            "homepage": "https://github.com/urakozz/php-emoji-regex",
+            "keywords": [
+                "emoji",
+                "regex",
+                "regexp"
+            ],
+            "time": "2016-11-16T21:30:56+00:00"
+        },
+        {
+            "name": "malkusch/lock",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/malkusch/lock.git",
+                "reference": "5555f291092a0ed5ab4f02d8be7031b877d8d165"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/malkusch/lock/5555f291092a0ed5ab4f02d8be7031b877d8d165.zip",
+                "reference": "5555f291092a0ed5ab4f02d8be7031b877d8d165",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "psr/log": "^1"
+            },
+            "require-dev": {
+                "ext-redis": "^2.2.4|^3",
+                "kriswallsmith/spork": "^0.3",
+                "mikey179/vfsstream": "^1.5.0",
+                "php-mock/php-mock-phpunit": "^1",
+                "phpunit/phpunit": "^5",
+                "predis/predis": "~1.0",
+                "zetacomponents/system-information": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "malkusch\\lock\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Markus Malkusch",
+                    "email": "markus@malkusch.de",
+                    "homepage": "http://markus.malkusch.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mutex library for exclusive code execution.",
+            "homepage": "https://github.com/malkusch/lock",
+            "keywords": [
+                "cas",
+                "flock",
+                "lock",
+                "memcache",
+                "mutex",
+                "redis",
+                "redlock",
+                "semaphore"
+            ],
+            "time": "2016-08-05T11:03:36+00:00"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.22.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1e044bc4b34e91743943479f1be7a1d5eb93add0",
+                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "~5.3"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2017-03-13T07:08:03+00:00"
+        },
+        {
+            "name": "overtrue/socialite",
+            "version": "1.0.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/overtrue/socialite.git",
+                "reference": "234b3051e7864bc94744c7cfa2a9fb1999a9ca2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/overtrue/socialite/zipball/234b3051e7864bc94744c7cfa2a9fb1999a9ca2c",
+                "reference": "234b3051e7864bc94744c7cfa2a9fb1999a9ca2c",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~5.0|~6.0",
+                "php": ">=5.4.0",
+                "symfony/http-foundation": "~2.6|~2.7|~2.8|~3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Overtrue\\Socialite\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overtrue",
+                    "email": "anzhengchao@gmail.com"
+                }
+            ],
+            "description": "A collection of OAuth 2 packages that extracts from laravel/socialite.",
+            "keywords": [
+                "login",
+                "oauth",
+                "qq",
+                "social",
+                "wechat",
+                "weibo"
+            ],
+            "time": "2017-05-16T15:34:16+00:00"
+        },
+        {
+            "name": "overtrue/wechat",
+            "version": "3.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/overtrue/wechat.git",
+                "reference": "18f22de7a1d88d81a8e38ce03f23fa020369e8ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/overtrue/wechat/zipball/18f22de7a1d88d81a8e38ce03f23fa020369e8ed",
+                "reference": "18f22de7a1d88d81a8e38ce03f23fa020369e8ed",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/cache": "~1.4",
+                "ext-openssl": "*",
+                "guzzlehttp/guzzle": "~6.2.1",
+                "monolog/monolog": "^1.17",
+                "overtrue/socialite": ">=1.0.24",
+                "php": ">=5.5.0",
+                "pimple/pimple": "~3.0",
+                "symfony/http-foundation": "~2.6|~2.7|~2.8|~3.0",
+                "symfony/psr-http-message-bridge": "~0.3|^1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.9",
+                "overtrue/phplint": "dev-master",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EasyWeChat\\": "src/"
+                },
+                "files": [
+                    "src/Payment/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overtrue",
+                    "email": "anzhengchao@gmail.com"
+                }
+            ],
+            "description": "微信SDK",
+            "keywords": [
+                "sdk",
+                "wechat",
+                "weixin",
+                "weixin-sdk"
+            ],
+            "time": "2017-04-27T04:10:13+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v2.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/paragonie/random_compat/634bae8e911eefa89c1abfbf1b66da679ac8f54d.zip",
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2017-03-13T16:27:32+00:00"
+        },
+        {
+            "name": "phpoffice/phpexcel",
+            "version": "1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/PHPOffice/PHPExcel/372c7cbb695a6f6f1e62649381aeaa37e7e70b32.zip",
+                "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Mark Baker"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://blog.rootslabs.net"
+                },
+                {
+                    "name": "Erik Tilt"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+            "homepage": "http://phpexcel.codeplex.com",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "time": "2015-05-01T07:00:55+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "a30f7d6e57565a2e1a316e1baf2a483f788b258a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/a30f7d6e57565a2e1a316e1baf2a483f788b258a",
+                "reference": "a30f7d6e57565a2e1a316e1baf2a483f788b258a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2015-09-11T15:10:35+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "qiniu/php-sdk",
+            "version": "v7.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/qiniu/php-sdk.git",
+                "reference": "b91653485e36b4797d7a302cc86c49695e47a642"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/qiniu/php-sdk/zipball/b91653485e36b4797d7a302cc86c49695e47a642",
+                "reference": "b91653485e36b4797d7a302cc86c49695e47a642",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Qiniu\\": "src/Qiniu"
+                },
+                "files": [
+                    "src/Qiniu/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Qiniu",
+                    "email": "sdk@qiniu.com",
+                    "homepage": "http://www.qiniu.com"
+                }
+            ],
+            "description": "Qiniu Resource (Cloud) Storage SDK for PHP",
+            "homepage": "http://developer.qiniu.com/",
+            "keywords": [
+                "cloud",
+                "qiniu",
+                "sdk",
+                "storage"
+            ],
+            "time": "2016-11-18T02:57:31+00:00"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "v3.2.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-foundation.git",
+                "reference": "9de6add7f731e5af7f5b2e9c0da365e43383ebef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/9de6add7f731e5af7f5b2e9c0da365e43383ebef",
+                "reference": "9de6add7f731e5af7f5b2e9c0da365e43383ebef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/polyfill-mbstring": "~1.1"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\HttpFoundation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony HttpFoundation Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-05-01T14:55:58+00:00"
+        },
+        {
+            "name": "symfony/intl",
+            "version": "v3.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/intl.git",
+                "reference": "431a020d3e7061e3d9c90e2279ba47ee44962820"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/symfony/intl/431a020d3e7061e3d9c90e2279ba47ee44962820.zip",
+                "reference": "431a020d3e7061e3d9c90e2279ba47ee44962820",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-intl-icu": "~1.0"
+            },
+            "require-dev": {
+                "symfony/filesystem": "~2.8|~3.0"
+            },
+            "suggest": {
+                "ext-intl": "to use the component with locales other than \"en\""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Intl\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ],
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                },
+                {
+                    "name": "Eriksen Costa",
+                    "email": "eriksen.costa@infranology.com.br"
+                },
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A PHP replacement layer for the C intl extension that includes additional data from the ICU library.",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "i18n",
+                "icu",
+                "internationalization",
+                "intl",
+                "l10n",
+                "localization"
+            ],
+            "time": "2017-08-27T14:52:21+00:00"
+        },
+        {
+            "name": "symfony/polyfill",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill.git",
+                "reference": "385d033a8e1d8778446d699ecbd886480716eba7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/symfony/polyfill/385d033a8e1d8778446d699ecbd886480716eba7.zip",
+                "reference": "385d033a8e1d8778446d699ecbd886480716eba7",
+                "shasum": ""
+            },
+            "require": {
+                "ircmaxell/password-compat": "~1.0",
+                "paragonie/random_compat": "~1.0|~2.0",
+                "php": ">=5.3.3",
+                "symfony/intl": "~2.3|~3.0"
+            },
+            "replace": {
+                "symfony/polyfill-apcu": "self.version",
+                "symfony/polyfill-iconv": "self.version",
+                "symfony/polyfill-intl-grapheme": "self.version",
+                "symfony/polyfill-intl-icu": "self.version",
+                "symfony/polyfill-intl-normalizer": "self.version",
+                "symfony/polyfill-mbstring": "self.version",
+                "symfony/polyfill-php54": "self.version",
+                "symfony/polyfill-php55": "self.version",
+                "symfony/polyfill-php56": "self.version",
+                "symfony/polyfill-php70": "self.version",
+                "symfony/polyfill-php71": "self.version",
+                "symfony/polyfill-util": "self.version",
+                "symfony/polyfill-xml": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\": "src/"
+                },
+                "files": [
+                    "src/Apcu/bootstrap.php",
+                    "src/Php54/bootstrap.php",
+                    "src/Php55/bootstrap.php",
+                    "src/Php56/bootstrap.php",
+                    "src/Php70/bootstrap.php",
+                    "src/Php71/bootstrap.php",
+                    "src/Iconv/bootstrap.php",
+                    "src/Intl/Grapheme/bootstrap.php",
+                    "src/Intl/Icu/bootstrap.php",
+                    "src/Intl/Normalizer/bootstrap.php",
+                    "src/Mbstring/bootstrap.php",
+                    "src/Xml/bootstrap.php"
+                ],
+                "classmap": [
+                    "src/Intl/Normalizer/Resources/stubs",
+                    "src/Php70/Resources/stubs",
+                    "src/Php54/Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfills backporting features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compat",
+                "compatibility",
+                "polyfill",
+                "shim"
+            ],
+            "time": "2016-11-14T01:15:23+00:00"
+        },
+        {
+            "name": "symfony/psr-http-message-bridge",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/psr-http-message-bridge.git",
+                "reference": "66085f246d3893cbdbcec5f5ad15ac60546cf0de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/psr-http-message-bridge/zipball/66085f246d3893cbdbcec5f5ad15ac60546cf0de",
+                "reference": "66085f246d3893cbdbcec5f5ad15ac60546cf0de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "psr/http-message": "~1.0",
+                "symfony/http-foundation": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7|~3.0"
+            },
+            "suggest": {
+                "psr/http-message-implementation": "To use the HttpFoundation factory",
+                "zendframework/zend-diactoros": "To use the Zend Diactoros factory"
+            },
+            "type": "symfony-bridge",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bridge\\PsrHttpMessage\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "PSR HTTP message bridge",
+            "homepage": "http://symfony.com",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr-7"
+            ],
+            "time": "2016-09-14T18:37:20+00:00"
+        },
+        {
+            "name": "topthink/think-captcha",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-captcha.git",
+                "reference": "0c55455df26a1626a60d0dc35d2d89002b741d44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-captcha/zipball/0c55455df26a1626a60d0dc35d2d89002b741d44",
+                "reference": "0c55455df26a1626a60d0dc35d2d89002b741d44",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\captcha\\": "src/"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "yunwuxin",
+                    "email": "448901948@qq.com"
+                }
+            ],
+            "description": "captcha package for thinkphp5",
+            "time": "2016-07-06T01:47:11+00:00"
+        },
+        {
+            "name": "topthink/think-image",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-image.git",
+                "reference": "8586cf47f117481c6d415b20f7dedf62e79d5512"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-image/zipball/8586cf47f117481c6d415b20f7dedf62e79d5512",
+                "reference": "8586cf47f117481c6d415b20f7dedf62e79d5512",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.*",
+                "topthink/framework": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "yunwuxin",
+                    "email": "448901948@qq.com"
+                }
+            ],
+            "description": "The ThinkPHP5 Image Package",
+            "time": "2016-09-29T06:05:43+00:00"
+        },
+        {
+            "name": "topthink/think-installer",
+            "version": "v1.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-installer.git",
+                "reference": "4c6e1ebecd1afce3f4ccc47e147d61bbe1bf641d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-installer/zipball/4c6e1ebecd1afce3f4ccc47e147d61bbe1bf641d",
+                "reference": "4c6e1ebecd1afce3f4ccc47e147d61bbe1bf641d",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "think\\composer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "think\\composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "yunwuxin",
+                    "email": "448901948@qq.com"
+                }
+            ],
+            "time": "2016-12-01T09:08:45+00:00"
+        },
+        {
+            "name": "topthink/think-mongo",
+            "version": "v1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-mongo.git",
+                "reference": "fc552c8fe5798679a52f4f0d7e60763f64aeb155"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/top-think/think-mongo/fc552c8fe5798679a52f4f0d7e60763f64aeb155.zip",
+                "reference": "fc552c8fe5798679a52f4f0d7e60763f64aeb155",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\mongo\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "liu21st",
+                    "email": "liu21st@gmail.com"
+                }
+            ],
+            "description": "mongodb driver for thinkphp5",
+            "time": "2017-05-05T07:52:33+00:00"
+        },
+        {
+            "name": "voku/anti-xss",
+            "version": "2.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voku/anti-xss.git",
+                "reference": "ed60f88e576f4c82729737d57c2b6a2a614fd181"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/voku/anti-xss/ed60f88e576f4c82729737d57c2b6a2a614fd181.zip",
+                "reference": "ed60f88e576f4c82729737d57c2b6a2a614fd181",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "voku/portable-utf8": "~3.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0|~5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "voku\\helper\\": "src/voku/helper/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "EllisLab Dev Team",
+                    "homepage": "http://ellislab.com/"
+                },
+                {
+                    "name": "Lars Moelleken",
+                    "email": "lars@moelleken.org",
+                    "homepage": "http://www.moelleken.org/"
+                }
+            ],
+            "description": "anti xss-library",
+            "homepage": "https://github.com/voku/anti-xss",
+            "keywords": [
+                "anti-xss",
+                "clean",
+                "security",
+                "xss"
+            ],
+            "time": "2017-05-08T09:18:41+00:00"
+        },
+        {
+            "name": "voku/portable-utf8",
+            "version": "3.1.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voku/portable-utf8.git",
+                "reference": "607d481a647f81b685e32d0313c0c700699dc321"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/voku/portable-utf8/607d481a647f81b685e32d0313c0c700699dc321.zip",
+                "reference": "607d481a647f81b685e32d0313c0c700699dc321",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/polyfill": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0|~5.0"
+            },
+            "suggest": {
+                "ext-iconv": "Use iconv for best performance",
+                "ext-intl": "Use Intl for best performance",
+                "ext-mbstring": "Use Mbstring for best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "voku\\": "src/voku/"
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(Apache-2.0 or GPL-2.0)"
+            ],
+            "authors": [
+                {
+                    "name": "Hamid Sarfraz",
+                    "homepage": "http://pageconfig.com/"
+                },
+                {
+                    "name": "Lars Moelleken",
+                    "homepage": "http://www.moelleken.org/"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                }
+            ],
+            "description": "Portable UTF-8 library with polyfill / shim for Iconv, Intl, Mbstring, Normalizrer etc.",
+            "homepage": "https://github.com/voku/portable-utf8",
+            "keywords": [
+                "UTF",
+                "clean",
+                "php",
+                "unicode",
+                "utf-8",
+                "utf8"
+            ],
+            "time": "2017-08-05T00:21:32+00:00"
+        },
+        {
+            "name": "xiaosier/libweibo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xiaosier/libweibo.git",
+                "reference": "2c9524190c4334e208613ad8f65365471c526954"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xiaosier/libweibo/zipball/2c9524190c4334e208613ad8f65365471c526954",
+                "reference": "2c9524190c4334e208613ad8f65365471c526954",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "saetv2.ex.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "lazypeople",
+                    "email": "hfutming@gmail.com",
+                    "homepage": "http://lazy.changes.com.cn",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP sdk for Weibo open platform",
+            "homepage": "http://github.com/xiaosier/libweibo",
+            "keywords": [
+                "sdk",
+                "weibo"
+            ],
+            "time": "2016-06-20T04:43:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "xiaosier/libweibo": 20,
+        "char0n/ffmpeg-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
