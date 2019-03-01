@@ -1,0 +1,236 @@
+[ 2019-03-01T11:11:56+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:27]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:13:39+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected 'if' (T_IF)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:28]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:16:22+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:27]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:16:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [1]Call to undefined function app\api\controller\call_tuling_api()[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:93]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:16:59+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [1]Call to undefined function app\api\controller\call_tuling_api()[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:93]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:17:35+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [1]Call to undefined function app\api\controller\call_tuling_api()[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:93]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:18:18+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [1]Call to undefined function app\api\controller\call_tuling_api()[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:93]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:18:21+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:27]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:18:31+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:27]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:18:46+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:27]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:18:56+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:27]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:19:16+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:27]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:19:24+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:27]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:20:09+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:27]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:24:02+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [1]Call to undefined function app\api\controller\call_tuling_api()[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:24]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:32]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:25:58+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:33]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:26:09+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:33]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:26:14+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected 'die' (T_EXIT)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:33]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:27:53+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected 'die' (T_EXIT)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:33]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:27:59+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected '$ch' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:33]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:28:17+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected ' ' (T_STRING)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:38]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:28:36+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected ' ' (T_STRING)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:42]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:28:43+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected 'curl_setopt' (T_STRING)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:45]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:29:01+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected 'curl_setopt' (T_STRING)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:45]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:29:26+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected 'break' (T_BREAK)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:63]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:29:35+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [4]语法错误: unexpected 'break' (T_BREAK)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:73]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:31:12+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [8]Undefined property: stdClass::$text[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:49]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:32:31+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [8]Undefined property: stdClass::$text[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:49]
+
+---------------------------------------------------------------
+[ 2019-03-01T11:45:41+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [2]date() expects at least 1 parameter, 0 given[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:20]
+
+---------------------------------------------------------------
+[ 2019-03-01T13:25:34+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [8]Trying to get property of non-object[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:27]
+
+---------------------------------------------------------------
+[ 2019-03-01T13:28:32+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [0]variable type error： boolean[C:\wamp\www\chatRobot\server\thinkphp\library\think\Response.php:305]
+
+---------------------------------------------------------------
+[ 2019-03-01T13:35:08+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [2]Illegal string offset 'results'[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:28]
+
+---------------------------------------------------------------
+[ 2019-03-01T13:35:16+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [8]Trying to get property of non-object[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:28]
+
+---------------------------------------------------------------
+[ 2019-03-01T13:35:45+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [8]未定义数组索引: text[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:28]
+
+---------------------------------------------------------------
+[ 2019-03-01T13:36:30+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [8]未定义数组索引: values[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:28]
+
+---------------------------------------------------------------
+[ 2019-03-01T13:36:49+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index
+[ error ] [8]未定义数组索引: value[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:28]
+
+---------------------------------------------------------------
+[ 2019-03-01T15:52:26+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [4]语法错误: unexpected '$data' (T_VARIABLE)[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:46]
+
+---------------------------------------------------------------
+[ 2019-03-01T15:52:36+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [2]file_get_contents() expects at least 1 parameter, 0 given[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:46]
+
+---------------------------------------------------------------
+[ 2019-03-01T15:52:46+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [2]file_get_contents('http://doctor.10jqka.com.cn/000001/'): failed to open stream: Invalid argument[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:46]
+
+---------------------------------------------------------------
+[ 2019-03-01T15:53:36+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [2]file_get_contents('http://doctor.10jqka.com.cn/1/'): failed to open stream: Invalid argument[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:46]
+
+---------------------------------------------------------------
+[ 2019-03-01T16:21:30+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [2]preg_match_all(): No ending delimiter '/' found[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:49]
+
+---------------------------------------------------------------
+[ 2019-03-01T16:22:02+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [0]variable type error： array[C:\wamp\www\chatRobot\server\thinkphp\library\think\Response.php:305]
+
+---------------------------------------------------------------
+[ 2019-03-01T16:37:05+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [2]preg_match(): Unknown modifier 'p'[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:54]
+
+---------------------------------------------------------------
+[ 2019-03-01T16:55:23+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义数组下标: 1[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:73]
+
+---------------------------------------------------------------
+[ 2019-03-01T16:55:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [2]strip_tags() expects parameter 1 to be string, array given[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:74]
+
+---------------------------------------------------------------
+[ 2019-03-01T16:57:34+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义数组下标: 1[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:78]
+
+---------------------------------------------------------------
+[ 2019-03-01T16:58:55+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义数组下标: 1[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:78]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:00:35+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义数组下标: 1[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:78]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:02:28+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [2]strip_tags() expects parameter 1 to be string, array given[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:79]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:02:28+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [2]strip_tags() expects parameter 1 to be string, array given[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:79]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:04:43+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义数组下标: 1[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:78]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:06:45+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义数组下标: 1[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:78]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:07:14+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义数组下标: 1[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:78]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:07:49+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义数组下标: 1[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:78]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:20:38+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义数组下标: 0[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:51]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:20:43+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义数组下标: 0[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:51]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:50:53+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [4]语法错误: unexpected '.'[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:102]
+
+---------------------------------------------------------------
+[ 2019-03-01T17:51:28+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/stockAnalysis
+[ error ] [8]未定义变量: resule[C:\wamp\www\chatRobot\server\application\api\controller\Index.php:102]
+
+---------------------------------------------------------------
